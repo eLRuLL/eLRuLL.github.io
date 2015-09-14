@@ -58,8 +58,19 @@ header h1 {
 }
 
 header h1:before {
-  content: "./ ";
-  font-size: 24px;
+  content: "// ";
+}
+
+section h2:before {
+    content: "./";
+}
+
+#avatar{
+    position: absolute;
+    right: 23%;
+    top: 0;
+    height: 160px;
+    width: 160px;
 }
 
 header h2 {
@@ -220,6 +231,16 @@ hr {
 .btn-github .icon {
   opacity: 0.6;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
+}
+
+.btn-linkedin .icon {
+    opacity: 0.6;
+    background: url("../images/linkedin.png") 0 0 no-repeat;
+}
+
+.btn-stackoverflow .icon {
+    opacity: 0.6;
+    background: url("../images/stackoverflow.png") 0 0 no-repeat;
 }
 
 /* Links
